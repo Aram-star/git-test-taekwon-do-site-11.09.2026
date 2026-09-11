@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* header */
+
+
+header {
+    width: 100%;
+    height: 52px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 70px;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo>h2 {
+    color: red;
+}
+
+.navigation {
+    display: flex;
+    gap: 25px;
+
+}
+
+.li-nav {
+    list-style: none;
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    transition: all 0.5s;
+}
+
+.nav:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    padding-bottom: 3px;
+}
+
+.but:hover {
+    background: white;
+    color: #222;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+    transform: translateY(-2px);
+}
+
+.but {
+    width: 85px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid red;
+    color: white;
+    background-color: black;
+    font-family: monospace;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+/* header */
+
+
+
+/* baner */
+
+.baner{
+    width: 100%;
+    height: 750px;
+    background-image: url(./images/Martial_artist_performing_side_kick_2K_20260911202852.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+
+
+
+/* baner */
